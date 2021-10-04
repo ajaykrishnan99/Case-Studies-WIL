@@ -5,7 +5,7 @@ import numpy as np
 import requests
 path=os.getcwd()
 while True:
-    API_KEY='1982386632:AAGCF6tBhgNBMP06B0w3T_2_HBJtTT--mTo'
+    API_KEY=''
     bot=telebot.TeleBot(API_KEY)
     recent_date=''
     df=pd.DataFrame()
