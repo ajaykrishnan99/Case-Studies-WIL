@@ -75,11 +75,11 @@ while True:
                 
                 url = "https://raw.githubusercontent.com/nytimes/covid-19-data/master/rolling-averages/us-counties-recent.csv"
                 aveg = pd.read_csv(url)
-                print("DONE WITH THISSSSSS")
+               
                 aveg['date'] = pd.to_datetime(aveg['date'])
 
                 lastest_date=aveg['date'].max()
-                print("DONE WITH THISSSSSS 2")
+            
                 from datetime import date
                 today = date.today()
                 from datetime import datetime, timedelta  
