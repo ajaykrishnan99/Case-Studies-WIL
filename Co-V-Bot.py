@@ -307,11 +307,11 @@ while True:
                     SLA_GREEN+=5
 
                 #DEATH----------------------------------------------------------------------------
-                if (MovingDeath_avg>15.98):
+                if (MovingDeath_avg>15):
                     SLA_RED+=2
-                elif (MovingDeath_avg>12.76) & (MovingDeath_avg<=15.98):
+                elif (MovingDeath_avg>12) & (MovingDeath_avg<=15):
                     SLA_AMBER+=2
-                elif  (MovingDeath_avg<=12.76):
+                elif  (MovingDeath_avg<=12):
                     SLA_GREEN+=2
 
                 #VACINATION PERCENTAGE-----------------------------------------------------------------------    
